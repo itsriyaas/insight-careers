@@ -8,7 +8,7 @@ const Header = () => {
     <nav className="navbar navbar-expand-lg bg-body-tertiary ps-md-5 ps-2">
       <div className="container-fluid md-justify-content-center">
         <Link className="navbar-brand" to="/">
-          <img src="src/assets/16 x 16 pixels.svg" width="50" alt="" />
+          <img src="16 x 16 pixels.svg" width="50" alt="" />
           <b>Insight</b>
           <small>careers</small>
         </Link>

@@ -11,7 +11,7 @@ const Footer = () => {
           {/* About */}
           <div className="col-md-4 mb-4 mb-md-0">
             <img
-              src="src/assets/800 x 800 pixel logo.png"
+              src="800 x 800 pixel logo.png"
               alt="Insight Careers Logo"
               width="100px"
               height="180px"

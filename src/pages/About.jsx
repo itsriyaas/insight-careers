@@ -10,7 +10,7 @@ const About = () => {
         <div className="row align-items-center">
           <div className="col-lg-3 mb-4 mb-lg-0">
             <img
-              src="src/assets/800 x 800 pixel logo.png"
+              src="800 x 800 pixel logo.png"
               alt="Insight Careers"
               className="img-fluid rounded" style={{width:"100px"}}
             />
