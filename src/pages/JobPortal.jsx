@@ -90,14 +90,14 @@ function JobPortal() {
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <img
-                  src="src/assets/banner1.jpg"
+                  src="banner1.jpg"
                   className="d-block w-100 rounded"
                   alt="Slide 1"
                 />
               </div>
               <div className="carousel-item">
                 <img
-                  src="src/assets/banner2.jpg"
+                  src="banner2.jpg"
                   className="d-block w-100 rounded"
                   alt="Slide 2"
                 />
