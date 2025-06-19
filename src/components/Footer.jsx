@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -39,11 +40,13 @@ const Footer = () => {
                   Career advice
                 </a>
               </li>
-              <li>
-                <a href="#" className="text-muted text-decoration-none">
-                  About
-                </a>
-              </li>
+              <Link to={"/about"} style={{textDecoration:"none"}}>
+                <li>
+                  <a href="#" className="text-muted text-decoration-none">
+                    About
+                  </a>
+                </li>
+              </Link>
               <li>
                 <a href="#" className="text-muted text-decoration-none">
                   Contact
@@ -69,10 +72,12 @@ const Footer = () => {
           {/* Contact */}
           <div className="col-md-2">
             <h5>Contact Us</h5>
-            <p>
-              Neelathukattil Building 1st Floor,<br />
-              Opp. Town Hall, Irinjalakuda PO 680121
-            </p>
+            <a href="https://maps.app.goo.gl/B2HVhYgTyL71QJft9" style={{textDecoration:"none",color:"black"}}>
+              <p>
+                Neelathukattil Building 1st Floor,<br />
+                Opp. Town Hall, Irinjalakuda PO 680121
+              </p>
+            </a>
             <a href="tel:918921571442" className="text-decoration-none text-muted">
               <p>
                 <i className="bi bi-telephone-fill me-2"></i>+91 89215 71442

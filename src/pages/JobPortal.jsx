@@ -36,6 +36,16 @@ const jobs = [
     keywords: "designer graphics photoshop adobe premierpro",
     jobid: "job4",
     link: "https://example.com/jobs/backend-developer",
+  },{
+    title: "Sales Marketing Executive",
+    description: "If you're passionate about PVC products and ready to grow your career with a reputed brand, we want to hear from you",
+    location: "Thrissur,Kerala",
+    responsibilities: ["Achieve monthly sales targets", "Ensure timely collection of payments","Increase product visibility in the market"],
+    requirements: ["1–3 years in sales", "preferably in Manufacturing industries or related industries"],
+    category: "marketing",
+    keywords: "marketing sales executive digital market",
+    jobid: "job5",
+    link: "https://example.com/jobs/backend-developer",
   },
   // Add more jobs as needed
 ];
